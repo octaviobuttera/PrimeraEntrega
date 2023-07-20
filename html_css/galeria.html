@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+    href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+    rel="stylesheet"
+  />
+    <link rel="stylesheet" href="./css/style.css" />
+    <title>Clase 9 | Galeria</title>
+  </head>
+  <body>
+    <header class="cabecera">
+      <h1>Galería</h1>
+    </header>
+    <!-- Menu de navegación -->
+    <nav class="navbar">
+      <!-- nav mobile -->
+      <input type="checkbox" id="check-menu">
+      <label for="check-menu" class="menu"><i class='bx bx-menu'></i></label>
+      <img src="./img/logo.png" alt="" />
+      <ul>
+        <li class="nav-item"><a href="/">Inicio</a></li>
+        <li class="nav-item">
+          <a href="./nosotros.html">Empresa</a>
+        </li>
+        <li class="nav-item"><a href="./reservas.html">Reservas</a></li>
+        <li class="nav-item"><a href="./galeria.html" class="active">Galeria</a></li>
+        <li class="nav-item"><a href="./contacto.html">Contacto</a></li>
+      </ul>
+      
+    </nav>
+
+    <!-- grid gallery -->
+    <div class="grid-gallery">
+      <img src="https://picsum.photos/200?random=1" alt="img-random" />
+      <img src="https://picsum.photos/200?random=2" alt="img-random" />
+      <img src="https://picsum.photos/200?random=3" alt="img-random" />
+      <img src="https://picsum.photos/200?random=4" alt="img-random" />
+      <img src="https://picsum.photos/200?random=5" alt="img-random" />
+      <img src="https://picsum.photos/200?random=6" alt="img-random" />
+      <img src="https://picsum.photos/200?random=7" alt="img-random" />
+      <img src="https://picsum.photos/200?random=8" alt="img-random" />
+      <img src="https://picsum.photos/200?random=9" alt="img-random" />
+      <img src="https://picsum.photos/200?random=10" alt="img-random" />
+      <img src="https://picsum.photos/200?random=11" alt="img-random" />
+      <img src="https://picsum.photos/200?random=12" alt="img-random" />
+      <img src="https://picsum.photos/200?random=13" alt="img-random" />
+      <img src="https://picsum.photos/200?random=14" alt="img-random" />
+      <img src="https://picsum.photos/200?random=15" alt="img-random" />
+      <img src="https://picsum.photos/200?random=16" alt="img-random" />
+      <img src="https://picsum.photos/200?random=17" alt="img-random" />
+    </div>
+    <footer class="footer-container">
+      <section class="enlaces">
+        <ul>
+          <li class="nav-item"><a href="nosotros.html">Quiénes somos</a></li>
+          <li class="nav-item"><a href="reservas.html">Reservas</a></li>
+          <li class="nav-item"><a href="contacto.html">Contacto</a></li>
+        </ul>
+      </section>
+      <section class="contact-info">
+        <span>Dirección:</span>
+        <p>Calle falsa 123</p>
+        <span>Teléfono:</span>
+        <a href="tel:+5491112345678">+5491112345678</a>
+      </section>
+      <section class="newsletter">
+        <span>Suscribite</span>
+        <input type="email" name="newsletter" id="" /> <button>Enviar</button>
+      </section>
+    </footer>
+  </body>
+</html>

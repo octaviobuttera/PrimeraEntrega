@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/style.css" />
+    <title>Clase 9 | Contacto</title>
+  </head>
+  <body>
+    <!-- cabecera  -->
+    <header class="cabecera">
+      <h1>Contacto</h1>
+    </header>
+    <!-- Menu de navegación -->
+    <nav class="navbar">
+      <!-- nav mobile -->
+      <input type="checkbox" id="check-menu" />
+      <label for="check-menu" class="menu"><i class="bx bx-menu"></i></label>
+      <img src="./img/logo.png" alt="" />
+      <ul>
+        <li class="nav-item"><a href="/">Inicio</a></li>
+        <li class="nav-item">
+          <a href="./nosotros.html">Empresa</a>
+        </li>
+        <li class="nav-item"><a href="./reservas.html">Reservas</a></li>
+        <li class="nav-item"><a href="./galeria.html">Galeria</a></li>
+        <li class="nav-item"><a href="./contacto.html" class="active">Contacto</a></li>
+      </ul>
+    </nav>
+
+    <h1 class="titulo-principal">Contacto</h1>
+
+    <main>
+      <section class="seccion-form borde">
+        <!-- formulario -->
+        <form action="">
+          <input type="text" placeholder="Nombre" />
+
+          <input type="text" placeholder="Apellido" />
+
+          <input type="tel" placeholder="Telefono" />
+          <input type="email" placeholder="Email" />
+          <input type="password" placeholder="Password" />
+          <input type="date" />
+          <textarea name="mensaje"></textarea>
+          <div class="btn-container">
+            <input type="reset" class="btn btn-cancel" value="Cancelar" />
+            <input type="submit" class="btn btn-success" value="Enviar" />
+          </div>
+        </form>
+      </section>
+    </main>
+    <footer class="footer-container">
+      <section class="enlaces">
+        <ul>
+          <li class="nav-item"><a href="nosotros.html">Quiénes somos</a></li>
+          <li class="nav-item"><a href="reservas.html">Reservas</a></li>
+          <li class="nav-item"><a href="contacto.html">Contacto</a></li>
+        </ul>
+      </section>
+      <section class="contact-info">
+        <span>Dirección:</span>
+        <p>Calle falsa 123</p>
+        <span>Teléfono:</span>
+        <a href="tel:+5491112345678">+5491112345678</a>
+      </section>
+      <section class="newsletter">
+        <span>Suscribite</span>
+        <input type="email" name="newsletter" id="" /> <button>Enviar</button>
+      </section>
+    </footer>
+  </body>
+</html>

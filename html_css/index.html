@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Styles  -->
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/bootstrap.css">
+    <link rel="stylesheet" href="./css/style.css" />
+    <title>Reservas Online - Primer entrega</title>
+  </head>
+  <body>
+    <!-- cabecera  -->
+    <header>
+      <h1>Real Estate</h1>
+      <p>El hogar de tus sueños</p>
+    </header>
+    <!-- Menu de navegación -->
+    <nav class="navbar">
+      <!-- nav mobile -->
+      <input type="checkbox" id="check-menu">
+      <label for="check-menu" class="menu"><i class='bx bx-menu'></i></label>
+      <img src="./img/logo.png" alt="" />
+      <ul>
+        <li class="nav-item"><a href="/" class="active">Inicio</a></li>
+        <li class="nav-item">
+          <a href="./nosotros.html">Empresa</a>
+        </li>
+        <li class="nav-item"><a href="./reservas.html">Reservas</a></li>
+        <li class="nav-item"><a href="./galeria.html">Galeria</a></li>
+        <li class="nav-item"><a href="./contacto.html">Contacto</a></li>
+      </ul>
+      
+    </nav>
+
+    <!-- contenedor principal -->
+    <main class="contenedor">
+      <section class="servicios">
+        <div class="content-info left">
+          <h2>Titulo de prueba</h2>
+          <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aut
+            voluptatibus <span>ESTO ES UN span</span> maiores ipsum! Obcaecati
+            tenetur aut ipsum molestias tempore amet dolorem, harum nulla
+            perferendis accusantium, enim neque cupiditate, dolor quia. Lorem
+            ipsum dolor sit amet consectetur adipisicing elit. Obcaecati ullam
+            et, architecto ab fugiat sequi nesciunt dicta! Laudantium hic saepe
+            voluptatem iusto autem unde recusandae, fugit numquam sed vero. Sunt
+            illum esse tenetur sed architecto delectus aut beatae officia
+            exercitationem, perferendis repudiandae voluptas adipisci voluptates
+            enim itaque asperiores nemo odio dicta natus sapiente, velit,
+            corporis qui expedita. Distinctio in expedita ratione corporis
+            accusantium numquam voluptatem consequatur, saepe vitae, quidem
+            magnam dolor iusto modi soluta ducimus, fugit perspiciatis dolores!
+            Consectetur dolores delectus ad eaque, tempore magni sequi ratione
+            rem aperiam asperiores qui quaerat eligendi, labore numquam autem
+            iste alias ducimus tenetur ullam consequatur modi ea. At voluptas
+            qui, possimus autem corrupti consequuntur amet temporibus
+            dignissimos repellat nihil minus enim nulla. Eaque quam rerum enim
+            maiores deserunt excepturi doloremque quod delectus dolores veniam,
+            libero non optio, amet ipsum fugiat ab laudantium est aperiam
+            mollitia unde! Reprehenderit qui vero soluta. Sapiente doloremque
+            incidunt mollitia minima, tempora explicabo vitae? Aspernatur
+            dignissimos qui minima tempora illum architecto ab delectus, fuga
+            quod cum sed aliquid porro magni veniam! Iusto culpa, possimus
+            eveniet accusamus tempora recusandae veritatis ad atque alias. Vero,
+            deserunt distinctio animi commodi magni vel repudiandae itaque
+            totam? Distinctio consequuntur veniam eaque, ab ea perferendis cum
+            nesciunt consectetur quasi, beatae aliquid molestias qui
+            perspiciatis asperiores delectus a. Ex, cum molestiae! Harum,
+            laboriosam magni. Ducimus omnis fuga suscipit expedita reprehenderit
+            ullam quisquam quod optio illum rem porro numquam amet, praesentium
+            molestiae et dolorem ipsam quaerat eum! Dicta, officiis et accusamus
+            reiciendis eos quas optio doloremque consectetur neque eius at odit
+            debitis nemo, quo nulla minima adipisci, maiores eveniet dolor? Odio
+            voluptas, consequatur non est nesciunt asperiores nam explicabo
+            atque nisi excepturi eveniet vitae? Molestias cupiditate modi
+            perferendis illum rem. Eaque a quae illum similique dolorum possimus
+            quisquam, maxime eveniet! Tempore voluptatibus non eius? Soluta,
+            consectetur maxime!
+          </p>
+          <div class="serv-icons">
+            <!--  -->
+          </div>
+        </div>
+        <div class="right">
+          <div class="map">
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3284.0167132768474!2d-58.3837590850284!3d-34.603738880459446!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4aa9f0a6da5edb%3A0x11bead4e234e558b!2sObelisco!5e0!3m2!1ses-419!2sar!4v1676396804381!5m2!1ses-419!2sar"
+              width="400"
+              height="300"
+              style="border: 0"
+              allowfullscreen=""
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"
+            ></iframe>
+          </div>
+          <div class="formulario">
+            <h2>Formulario</h2>
+            <form action="">
+              <div class="box-input">
+                <select name="" id="">
+                  <option value="default">Seleccione un barrio</option>
+                  <option value="palermo">Palermo</option>
+                  <option value="agronomia">Agronomía</option>
+                  <option value="devoto">Villa Devoto</option>
+                  <option value="urquiza">Villa Urquiza</option>
+                  <option value="retiro">Retiro</option>
+                </select>
+              </div>
+
+              <div class="box-input active">
+                <label for="habitaciones">Cant. de habitaciones</label>
+                <input
+                  type="number"
+                  placeholder="Habitaciones"
+                  id="habitaciones"
+                />
+              </div>
+              <div class="box-input">
+                <label for="price">Precio base</label>
+                <input type="number" placeholder="Precio base" id="price" />
+              </div>
+              <div class="box-input">
+                <label for="">Barrio cerrado: </label>
+                <input type="checkbox" id="" /><span>Si</span>
+                <input type="checkbox" id="" /><span>No</span>
+              </div>
+              <input type="reset"  class="btn btn-cancel" value="Cancelar" />
+              <input type="button" class="btn btn-success"  value="Consultar" />
+            </form>
+          </div>
+        </div>
+      </section>
+
+      <!-- CARDS -->
+      <section class="cards-container">
+        <div class="card">
+          <div class="card-img">
+            <img src="./img/img3.jpg" alt="" />
+            <div class="card-title">
+              <h4>Titulo 1</h4>
+            </div>
+          </div>
+          <div class="card-content">
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Officiis,
+            aspernatur.
+          </div>
+          <div class="card-footer">
+            <a href="#">Más detalles</a>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-img">
+            <img src="./img/img3.jpg" alt="" />
+            <div class="card-title">
+              <h4>Titulo 1</h4>
+            </div>
+          </div>
+          <div class="card-content">
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Officiis,
+            aspernatur.
+          </div>
+          <div class="card-footer">
+            <a href="#">Más detalles</a>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-img">
+            <img src="./img/img3.jpg" alt="" />
+            <div class="card-title">
+              <h4>Titulo 1</h4>
+            </div>
+          </div>
+          <div class="card-content">
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Officiis,
+            aspernatur.
+          </div>
+          <div class="card-footer">
+            <a href="#">Más detalles</a>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-img">
+            <img src="./img/img3.jpg" alt="" />
+            <div class="card-title">
+              <h4>Titulo 1</h4>
+            </div>
+          </div>
+          <div class="card-content">
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Officiis,
+            aspernatur.
+          </div>
+          <div class="card-footer">
+            <a href="#">Más detalles</a>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-img">
+            <img src="./img/img3.jpg" alt="" />
+            <div class="card-title">
+              <h4>Titulo 1</h4>
+            </div>
+          </div>
+          <div class="card-content">
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Officiis,
+            aspernatur.
+          </div>
+          <div class="card-footer">
+            <a href="#">Más detalles</a>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-img">
+            <img src="./img/img3.jpg" alt="" />
+            <div class="card-title">
+              <h4>Titulo 1</h4>
+            </div>
+          </div>
+          <div class="card-content">
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Officiis,
+            aspernatur.
+          </div>
+          <div class="card-footer">
+            <a href="#">Más detalles</a>
+          </div>
+        </div>
+      </section>
+
+      <footer class="footer-container">
+        <section class="enlaces">
+          <ul>
+            <li class="nav-item"><a href="nosotros.html">Quiénes somos</a></li>
+            <li class="nav-item"><a href="reservas.html">Reservas</a></li>
+            <li class="nav-item"><a href="contacto.html">Contacto</a></li>
+          </ul>
+        </section>
+        <section class="contact-info">
+          <span>Direccion:</span>
+          <p>Calle falsa 123</p>
+          <span>Teléfono:</span>
+          <a href="tel:+5491112345678">+5491112345678</a>
+        </section>
+        <section class="newsletter">
+          <span>Suscribite</span>
+          <input type="email" name="newsletter" id="" /> <button>Enviar</button>
+        </section>
+      </footer>
+    </main>
+  </body>
+</html>

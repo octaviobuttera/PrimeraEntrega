@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+    href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+    rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/bootstrap.css">
+    <link rel="stylesheet" href="./css/style.css" />
+    <title>Clase 9 | Nosotros</title>
+  </head>
+  <body>
+    <!-- cabecera  -->
+    <header class="cabecera">
+      <h1>Nosotros</h1>
+    </header>
+    <!-- Menu de navegación -->
+    <nav class="navbar">
+      <!-- nav mobile -->
+      <input type="checkbox" id="check-menu" />
+      <label for="check-menu" class="menu"><i class="bx bx-menu"></i></label>
+      <img src="./img/logo.png" alt="" />
+      <ul>
+        <li class="nav-item"><a href="/">Inicio</a></li>
+        <li class="nav-item">
+          <a href="./nosotros.html" class="active">Empresa</a>
+        </li>
+        <li class="nav-item"><a href="./reservas.html">Reservas</a></li>
+        <li class="nav-item"><a href="./galeria.html">Galeria</a></li>
+        <li class="nav-item"><a href="./contacto.html">Contacto</a></li>
+        <li class="nav-item"><div class="dropdown">
+          <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Dropdown button
+          </button>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#">Action</a></li>
+            <li><a class="dropdown-item" href="#">Another action</a></li>
+            <li><a class="dropdown-item" href="#">Something else here</a></li>
+          </ul>
+        </div></li>
+      </ul>
+    </nav>
+
+    <section class="info  info--destacado">
+      <h2 class="info__titulo info__titulo--uppercase">Sobre la empresa</h2>
+      <div>
+        <img src="./img/img3.jpg" alt="img" />
+        <p>
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eligendi
+          numquam officiis vitae. Laudantium ea cupiditate officia, sint sit, in
+          repellendus aperiam ipsum recusandae deserunt tempora, eligendi
+          nostrum eum iusto nobis fuga tenetur nesciunt. In itaque perspiciatis
+          facilis corrupti, quos aliquam totam minus, debitis impedit
+          doloremque, voluptate iusto esse repellendus earum.
+        </p>
+      </div>
+    </section>
+    <div class="row">
+      <div class="col-md-6 offset-1">
+        <form>
+          <div class="mb-3">
+            <label for="exampleInputEmail1" class="form-label">Email </label>
+            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+            <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+          </div>
+          <div class="mb-3">
+            <label for="exampleInputPassword1" class="form-label">Password</label>
+            <input type="password" class="form-control" id="exampleInputPassword1">
+          </div>
+          <div class="mb-3 form-check">
+            <input type="checkbox" class="form-check-input" id="exampleCheck1">
+            <label class="form-check-label" for="exampleCheck1">chekealo</label>
+          </div>
+          <button type="submit" class="btn btn-danger">Submit</button>
+        </form>
+      </div>
+    </div>
+    <section class="valores">
+      <div class="box">
+        <div class="box-title">
+          <i class="bx bxs-key"></i>
+          <h4>Seguridad</h4>
+        </div>
+        <div class="box-content">
+          <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+        </div>
+      </div>
+      <div class="box">
+        <div class="box-title">
+          <i class="bx bxs-shield"></i>
+          <h4>Seriedad</h4>
+        </div>
+        <div class="box-content">
+          <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+        </div>
+      </div>
+      <div class="box">
+        <div class="box-title">
+          <i class="bx bxs-heart"></i>
+          <h4>Confianza</h4>
+        </div>
+        <div class="box-content">
+          <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+        </div>
+      </div>
+      <div class="box">
+        <div class="box-title">
+          <i class="bx bxs-home-smile"></i>
+          <h4>Motivación</h4>
+        </div>
+        <div class="box-content">
+          <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer-container">
+      <section class="enlaces">
+        <ul>
+          <li class="nav-item"><a href="nosotros.html">Quiénes somos</a></li>
+          <li class="nav-item"><a href="reservas.html">Reservas</a></li>
+          <li class="nav-item"><a href="contacto.html">Contacto</a></li>
+        </ul>
+      </section>
+      <section class="contact-info">
+        <span>Dirección:</span>
+        <p>Calle falsa 123</p>
+        <span>Teléfono:</span>
+        <a href="tel:+5491112345678">+5491112345678</a>
+      </section>
+      <section class="newsletter">
+        <span>Suscribite</span>
+        <input type="email" name="newsletter" id="" /> <button class="btn btn-success">Enviar</button>
+      </section>
+    </footer>
+  </body>
+</html>

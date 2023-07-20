@@ -1,0 +1,12 @@
+Colores
+
+success: #03CEA4;
+danger: #FB4D3D;
+primary: #345995;
+warning: #EAC435;
+
+bg-principal: #F8E9E9; o #F5FBEF;
+
+font-color: #333; o #2D2D2D;
+
+enlace: https://app.moqups.com/lVJ3ODIXfxGnNGcSHJ62Bj0GtgLhKHVN/view/page/ae2bacd1d
